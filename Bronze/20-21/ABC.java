@@ -1,5 +1,5 @@
 //this took embarassingly long to get
-//didn't figure out life hack on line 18 for 15 mins lmao
+//didn't figure out life hack on line 18 for 15 mins (rip my usaco promotion chances)
 
 import java.io.*;
 import java.util.*;
