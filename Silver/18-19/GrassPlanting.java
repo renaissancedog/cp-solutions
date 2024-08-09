@@ -25,13 +25,10 @@ public class GrassPlanting {
       }
     }
     int max=-1;
-    int ans=-1;
     for (Map.Entry<Integer,Integer> a: hm.entrySet()) {
-      int v=a.getKey();
       int w=a.getValue();
       if (w>max) {
         max=w;
-        ans=v;
       }
     }
     pw.print(max+1);
