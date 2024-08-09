@@ -8,7 +8,6 @@ public class ABC {
     BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
     PrintWriter pw = new PrintWriter(System.out);
     StringTokenizer st = new StringTokenizer(r.readLine());
-    int max=-1;int max2=-1;
     int[] a=new int[7];
     for (int i = 0; i < 7; i++) {
       int n=Integer.parseInt(st.nextToken());

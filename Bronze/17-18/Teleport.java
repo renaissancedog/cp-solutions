@@ -7,7 +7,6 @@ public class Teleport {
     BufferedReader r = new BufferedReader(new FileReader("teleport.in"));
     PrintWriter pw = new PrintWriter("teleport.out");
     StringTokenizer st = new StringTokenizer(r.readLine());
-    HashMap<Integer,Integer> hm=new HashMap<>();
     int a=Integer.parseInt(st.nextToken());
     int b=Integer.parseInt(st.nextToken());
     int c=Integer.parseInt(st.nextToken());
