@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.*;
 public class Speeding {
     public static void main(String[] args) throws IOException {
-                BufferedReader r = new BufferedReader(new FileReader("speeding.in"));
+        BufferedReader r = new BufferedReader(new FileReader("speeding.in"));
         PrintWriter pw = new PrintWriter("speeding.out");
         StringTokenizer st = new StringTokenizer(r.readLine());
         int n=Integer.parseInt(st.nextToken()), q=Integer.parseInt(st.nextToken());
@@ -27,8 +27,7 @@ public class Speeding {
             }
             counter+=a;
         }  
-        // pw.println(Arrays.toString(speed));
-        int max=-10;
+        int max=-1;
         for (int i=0; i<100; i++) {
             max=Math.max(max, speed[i]-limit[i]);
         }
