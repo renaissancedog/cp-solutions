@@ -1,3 +1,4 @@
+//checked all 3 possibilities
 import java.io.*;
 import java.util.*;
 public class Shell {
