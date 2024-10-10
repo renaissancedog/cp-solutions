@@ -6,7 +6,7 @@ public class LoadBalancing {
     PrintWriter pw = new PrintWriter("balancing.out");
     StringTokenizer st = new StringTokenizer(r.readLine());
     int n=Integer.parseInt(st.nextToken());
-    int b=Integer.parseInt(st.nextToken());//i didn't use this
+    //i didn't use the variable b
     int[][] loc=new int[n][2];
     HashSet<Integer> x=new HashSet<>();
     HashSet<Integer> y=new HashSet<>();
