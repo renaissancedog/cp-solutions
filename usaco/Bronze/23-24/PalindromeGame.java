@@ -1,4 +1,4 @@
-//pretty ez, just tried cases until i found the pattern
+//pretty easy, just tried cases until i found the pattern
 
 import java.io.*;
 import java.util.*;
