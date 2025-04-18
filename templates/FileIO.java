@@ -17,6 +17,3 @@ public class FileIO {
     pw.print(n+1);
   }
 }
-
-
-

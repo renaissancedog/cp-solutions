@@ -16,6 +16,3 @@ public class Template {
     	pw.println(n+1);
 	}
 }
-
-
-
