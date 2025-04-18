@@ -20,12 +20,12 @@ public class TamingHerd {
         for (int j=i; j>=0; j--) {
           if (log[j]>-1&&log[j]!=log[i]-(i-j)) {
             pw.print(-1);
-            pw.close();
+            pw.close();r.close();
             return;
           }
           if (log[0]>0) {
             pw.print(-1);
-            pw.close();
+            pw.close();r.close();
             return;
           }
           log[j]=log[i]-(i-j);
