@@ -1,7 +1,7 @@
 //two pointers, solved with help of usaco giude
 import java.io.*;
 import java.util.*;
-public class Books279B {
+public class CF279B {
     static PrintWriter pw;
     static BufferedReader r;
     public static void main(String[] args) throws IOException {
